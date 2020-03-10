@@ -22,7 +22,7 @@ spec:
     volumeMounts:
     - name: workspace-volume
       mountPath: /docker-entrypoint-initdb.d
-      #subPath: workspace/Folder_ccm-be_feature_buildInK8s/schemas
+      subPath: workspace/rTeamFolder_jenkins-61339_master/schemas
     securityContext:
       runAsUser: 0
     args:
