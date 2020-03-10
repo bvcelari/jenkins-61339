@@ -7,7 +7,7 @@ spec:
     # fsGroup: 0
   containers:
   - name: node
-    image: fsnexus.evry.com:8085/evryfs/node-dev-docker:node12
+    image: fsnexus.evry.com:8085/node:12
     imagePullPolicy: Always
     command:
     - cat
