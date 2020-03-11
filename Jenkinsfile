@@ -3,7 +3,7 @@
 pipeline {
   agent {
     kubernetes {
-      cloud 'icp-global'
+//      cloud 'icp-global'
       defaultContainer 'node'
       yamlFile 'buildPod.yaml'
     }
